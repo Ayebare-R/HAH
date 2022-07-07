@@ -352,14 +352,16 @@ figure {
   font-family: 'Poppins', sans-serif;
   color: #60b239;
   font-weight: bold;
+  margin-left: 5mm;
 }
 
 @media screen and (max-width: 768px) {
   #-logo-2 {
-    font-size: 10px;
+    font-size: 10.5px;
     width: 100%;
     float: none;
     text-align: left;
+    margin-left: 0mm;
   }
 }
 #fh5co-menu-wrap {
