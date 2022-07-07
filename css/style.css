@@ -1114,18 +1114,19 @@ figure {
 }
 
 #footer {
-  background: #f59b0b;
-  padding: 60px 0 40px;
+  background: whitesmoke;
+  padding: 30px 0 20px;
 }
 #footer p {
   color: white;
   font-size: 14px;
 }
+
 #footer p a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #848484;
 }
 #footer p a:hover, #footer p a:active, #footer p a:focus {
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: #5a5a5a !important;
 }
 
 .btn {
