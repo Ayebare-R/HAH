@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&display=swap');
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&family=Poppins:ital,wght@1,200&display=swap');
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
@@ -23,6 +23,19 @@ body {
 }
 body.fh5co-offcanvas {
   overflow: hidden;
+}
+
+#poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  #poppins {
+    font-size: 10px;
+    width: 100%;
+    float: none;
+    text-align: left;
+  }
 }
 
 a {
@@ -83,55 +96,6 @@ figure {
   -ms-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
   -o-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
-}
-
-.header-top {
-  padding: 10px 0;
-  background: #f59b0b;
-}
-.header-top .fh5co-link a {
-  margin-left: 10px;
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.7);
-}
-.header-top .fh5co-link a:first-child {
-  margin-left: 0;
-}
-.header-top .fh5co-link a:hover {
-  color: white !important;
-}
-@media screen and (max-width: 768px) {
-  .header-top .fh5co-link {
-    text-align: center;
-  }
-}
-.header-top .fh5co-social a {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
-  margin-right: 15px;
-  position: relative;
-  -webkit-transition: 0.5s, ease-in-out;
-  -o-transition: 0.5s, ease-in-out;
-  transition: 0.5s, ease-in-out;
-}
-.header-top .fh5co-social a:last-child {
-  margin-right: 0;
-}
-.header-top .fh5co-social a:hover, .header-top .fh5co-social a:focus, .header-top .fh5co-social a:active {
-  text-decoration: none;
-  color: white !important;
-}
-.header-top .fh5co-social a:hover i, .header-top .fh5co-social a:focus i, .header-top .fh5co-social a:active i {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
-}
-@media screen and (max-width: 768px) {
-  .header-top .fh5co-social {
-    text-align: center !important;
-  }
 }
 
 .fh5co-cover,
@@ -367,12 +331,12 @@ figure {
 }
 
 #fh5co-logo {
- font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;;
   position: relative;
   z-index: 2;
   font-size: 25px;
-  text-transform: uppercase;
-  margin-top: 35px;
+  margin-top: 30px;
+  margin-bottom: 0px;
   font-weight: 700;
   float: left;
 }
@@ -381,10 +345,12 @@ figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-logo {
+    font-size: 22px;
     width: 100%;
     float: none;
-    text-align: center;
+    text-align: left;
   }
+  
 }
 #fh5co-logo a {
   color: #e6007e;
@@ -398,7 +364,7 @@ figure {
   z-index: 2;
   display: block;
   float: right;
-  margin-top: 15px;
+  margin-top: 23px;
 }
 #fh5co-menu-wrap .sf-menu a {
   padding: 1em .75em;
