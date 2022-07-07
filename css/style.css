@@ -25,18 +25,7 @@ body.fh5co-offcanvas {
   overflow: hidden;
 }
 
-#poppins {
-  font-family: 'Poppins', sans-serif;
-}
 
-@media screen and (max-width: 768px) {
-  #poppins {
-    font-size: 10px;
-    width: 100%;
-    float: none;
-    text-align: left;
-  }
-}
 
 a {
   color: #f59b0b;
@@ -359,6 +348,20 @@ figure {
   color: #e6007e !important;
 }
 
+#-logo-2 {
+  font-family: 'Poppins', sans-serif;
+  color: #60b239;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  #-logo-2 {
+    font-size: 10px;
+    width: 100%;
+    float: none;
+    text-align: left;
+  }
+}
 #fh5co-menu-wrap {
   position: relative;
   z-index: 2;
