@@ -1046,7 +1046,12 @@ figure {
 	
 			width: 100%;
 
-			&:hover{
+			&:hover,
+			&:focus,
+			&.focus {
+			  color: $color;
+			  background-color: darken($background, 17%);
+				  border-color: darken($border, 25%);
 			}
 
 		}
@@ -1103,7 +1108,7 @@ figure {
 		}
 
 		p{
-			// color: rgba($brand-white,.5);
+			 color: rgba($brand-white,.5);
 		}
 	}
 }
